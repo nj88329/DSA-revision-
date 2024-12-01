@@ -1,3 +1,4 @@
+// minimum Jump DP soln O(n2)
 minJumps(arr) 
 {
     // code here
