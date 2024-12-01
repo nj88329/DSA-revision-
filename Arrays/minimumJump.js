@@ -28,6 +28,7 @@ minJumps(arr)
         return minimumStep;
        }
        
+       // return the ans as it is if it is not Infinity otherwise return -1
         const result = minJumReq(arr , 0);
     return result === Infinity ? -1 : result;
 }
