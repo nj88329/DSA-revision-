@@ -1,4 +1,5 @@
-find(arr, x) {
+find(arr, x)
+{
     // code here
     
     let firstOccurence = -1 ; let lastoccurence = -1;
