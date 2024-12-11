@@ -1,8 +1,6 @@
 lca(root, n1, n2) 
 {
     // your code here
-    
-    
      function findLCA( root )
      {
          

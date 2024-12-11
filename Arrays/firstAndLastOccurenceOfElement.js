@@ -1,7 +1,6 @@
 find(arr, x)
 {
-    // code here
-    
+    // code here    
     let firstOccurence = -1 ; let lastoccurence = -1;
     
     let ans = []
@@ -17,8 +16,7 @@ find(arr, x)
                else
                  lastoccurence = i ;
            }
-    }
-    
+    }   
     ans.push(firstOccurence , lastoccurence)
     return ans;
 }
