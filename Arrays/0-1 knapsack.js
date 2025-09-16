@@ -5,8 +5,6 @@ knapSack(capacity, val, wt) {
 // initialise memoised array with i (row ) index and  changing value with column (index)
     let memoised = Array.from({ length: n + 1 }, () => Array(capacity + 1).fill(-1));
 
-
-
         function sumOfValue( capacity ,  i )
         {
             

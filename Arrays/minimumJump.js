@@ -11,13 +11,12 @@ minJumps(arr)
            if( arr.length-1 <= position  )
              return 0;
              
-             
              if( arr[position] === 0 ) return Infinity;
              
               if (memo[position] !== -1) return memo[position];
              
              
-              let minimumStep = Infinity;
+         let minimumStep = Infinity;
              
             
           for (let step = 1;  step <= arr[position] ; step++) {
@@ -25,7 +24,7 @@ minJumps(arr)
             minimumStep = Math.min(minimumStep, 1 + ans);
         }
              
-               memo[position] = minimumStep;
+        memo[position] = minimumStep;
         return minimumStep;
        }
        

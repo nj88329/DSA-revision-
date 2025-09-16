@@ -13,8 +13,8 @@ isIdentical(r1, r2)
                 return false;
             }
            
-        return checkIdentical( r1.left , r2.left ) &&  checkIdentical( r1.right , r2.right );
-           
+        return checkIdentical( r1.left , r2.left ) &&  checkIdentical( r1.right , r2.right );           
+        
        }
  return  checkIdentical( r1 , r2 );
 }

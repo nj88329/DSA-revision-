@@ -3,7 +3,6 @@ perfectSum(arr, target) {
     
        let n = arr.length ;
 
-
        // initialising the memoised array with value -1
   let memo = Array.from({ length : n+1 } , () => Array(target + 1).fill(-1) ) ;
     
@@ -11,8 +10,7 @@ perfectSum(arr, target) {
    function targetSum( target , i )
    {
        // if current index has reached the element next to the last index.
-       if( i === arr.length ) {
-           
+       if( i === arr.length ) {           
 
         //when index has reached last and sum is equal to zero. It should return 1 else 0
             if( target === 0 ) return 1;
@@ -24,9 +22,7 @@ perfectSum(arr, target) {
        //if subproblem is already calculated return value;
        if( memo[i][target] !== -1 ) return memo[i][target];
        
-       
-       let include = 0 ; 
-       
+       let include = 0 ;        
 
        //if target >= current indexed element either include it or exclude it
        if( arr[i] <= target )

@@ -8,7 +8,7 @@ find(arr, x)
     {
         if( arr[i] === x ) 
            {
-               if(firstOccurence=== -1)
+               if(firstOccurence === -1)
                {
                    firstOccurence = i;
                    lastoccurence = i ;
